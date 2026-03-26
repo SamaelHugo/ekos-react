@@ -1,9 +1,9 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, useInView } from 'framer-motion'
-import { useRef } from 'react'
 import { products } from '../data/products'
 import ProductCard from '../components/ProductCard'
+import PageTransition from '../components/PageTransition'
 
 /* ─── Animation helpers ─── */
 const fadeUp = (delay = 0) => ({
@@ -211,10 +211,10 @@ function BrandStory() {
    ═══════════════════════════════════════════ */
 export default function Home() {
   return (
-    <>
+    <PageTransition>
       <Hero />
       <FeaturedProducts />
       <BrandStory />
-    </>
+    </PageTransition>
   )
 }

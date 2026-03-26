@@ -111,8 +111,9 @@ export default function Navbar() {
               {count > 0 && (
                 <motion.span
                   key={count}
-                  initial={{ scale: 0.5 }}
-                  animate={{ scale: 1 }}
+                  initial={{ scale: 0 }}
+                  animate={{ scale: [0, 1.4, 1] }}
+                  transition={{ duration: 0.35, ease: 'easeOut' }}
                   className="absolute -top-2 -right-2.5 min-w-[18px] h-[18px] bg-accent text-primary text-[10px] font-body font-semibold rounded-full flex items-center justify-center px-1"
                 >
                   {count}

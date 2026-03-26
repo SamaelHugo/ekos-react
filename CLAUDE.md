@@ -48,4 +48,4 @@ Multi-page fashion catalog rebuilt on React. Premium editorial design with routi
 - [x] Catalog page (Filters + Grid + Search)
 - [x] Product page (Gallery + Details + Add to cart)
 - [x] About + Contact pages
-- [ ] Animations + polish
+- [x] Animations + polish

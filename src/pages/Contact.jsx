@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
+import PageTransition from '../components/PageTransition'
 
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 20 },
@@ -16,6 +17,7 @@ export default function Contact() {
   }
 
   return (
+    <PageTransition>
     <div className="min-h-screen pb-32" style={{ paddingTop: '160px' }}>
       <div className="max-w-xl mx-auto px-8 text-center">
         <motion.h1
@@ -95,5 +97,6 @@ export default function Contact() {
         )}
       </div>
     </div>
+    </PageTransition>
   )
 }

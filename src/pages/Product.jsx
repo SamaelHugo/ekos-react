@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { products } from '../data/products'
 import { useCartStore } from '../store/cartStore'
 import ProductCard from '../components/ProductCard'
+import PageTransition from '../components/PageTransition'
 
 /* ─── Features list ─── */
 const features = [
@@ -61,6 +62,7 @@ export default function Product() {
   }
 
   return (
+    <PageTransition>
     <div className="min-h-screen">
       {/* Main product section */}
       <section className="pt-20 pb-32">
@@ -105,6 +107,7 @@ export default function Product() {
                       src={img}
                       alt={`${product.name} ${i + 1}`}
                       className="w-full h-full object-cover"
+                      loading="lazy"
                     />
                   </button>
                 ))}
@@ -217,5 +220,6 @@ export default function Product() {
         </section>
       )}
     </div>
+    </PageTransition>
   )
 }

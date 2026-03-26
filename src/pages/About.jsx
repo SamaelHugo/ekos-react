@@ -1,6 +1,7 @@
+import { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, useInView } from 'framer-motion'
-import { useRef } from 'react'
+import PageTransition from '../components/PageTransition'
 
 /* ─── Values data ─── */
 const values = [
@@ -31,6 +32,7 @@ function AboutHero() {
         src="https://images.pexels.com/photos/3622614/pexels-photo-3622614.jpeg?auto=compress&cs=tinysrgb&w=1920"
         alt="ÉKOS about"
         className="absolute inset-0 w-full h-full object-cover"
+        loading="lazy"
       />
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 h-full flex items-center justify-center">
@@ -170,11 +172,11 @@ function CTA() {
    ═══════════════════════════════════════════ */
 export default function About() {
   return (
-    <>
+    <PageTransition>
       <AboutHero />
       <Story />
       <Values />
       <CTA />
-    </>
+    </PageTransition>
   )
 }

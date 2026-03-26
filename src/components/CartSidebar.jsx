@@ -85,6 +85,7 @@ export default function CartSidebar() {
                         src={item.image}
                         alt={item.name}
                         className="w-20 h-[100px] object-cover bg-card shrink-0"
+                        loading="lazy"
                       />
 
                       {/* Details */}

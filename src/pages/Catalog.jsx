@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { products } from '../data/products'
+import PageTransition from '../components/PageTransition'
 
 /* ─── Filter config ─── */
 const filters = [
@@ -109,6 +110,7 @@ export default function Catalog() {
   }, [activeFilter, search, sort])
 
   return (
+    <PageTransition>
     <div className="min-h-screen">
       {/* Header */}
       <section className="pt-20 pb-16 text-center">
@@ -243,5 +245,6 @@ export default function Catalog() {
         </div>
       </section>
     </div>
+    </PageTransition>
   )
 }
