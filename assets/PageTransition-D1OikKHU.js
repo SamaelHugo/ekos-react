@@ -1,0 +1,1 @@
+import{t as e,u as t}from"./proxy-MyNHVNVG.js";var n=t();function r({children:t}){return(0,n.jsx)(e.div,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},exit:{opacity:0},transition:{duration:.3,ease:`easeOut`},children:t})}export{r as t};
