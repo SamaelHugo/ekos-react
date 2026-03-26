@@ -1,11 +1,11 @@
 export const products = [
   {
     id: 1,
-    name: "Noir Silk Blazer",
-    price: 1290,
+    name: "Шёлковый блейзер",
+    price: 14900,
     category: "top",
     description:
-      "Impeccably tailored blazer in fluid silk twill. A sharp silhouette with peak lapels and a single-button closure, designed for those who command attention without raising their voice.",
+      "Безупречно скроенный блейзер из струящегося шёлкового твила. Острый силуэт с пиковыми лацканами и однокнопочной застёжкой — для тех, кто привлекает внимание, не повышая голоса.",
     sizes: ["XS", "S", "M", "L", "XL"],
     images: [
       "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -16,11 +16,11 @@ export const products = [
   },
   {
     id: 2,
-    name: "Ivory Draped Top",
-    price: 680,
+    name: "Драпированный топ",
+    price: 7900,
     category: "top",
     description:
-      "Asymmetric draped top in heavyweight crepe. The sculptural neckline falls into a relaxed body, balancing architectural intent with effortless wearability.",
+      "Асимметричный драпированный топ из плотного крепа. Скульптурная горловина переходит в свободный силуэт, балансируя архитектурный замысел с непринуждённостью.",
     sizes: ["XS", "S", "M", "L"],
     images: [
       "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -31,11 +31,11 @@ export const products = [
   },
   {
     id: 3,
-    name: "Obsidian Wool Trousers",
-    price: 890,
+    name: "Шерстяные брюки",
+    price: 9900,
     category: "bottom",
     description:
-      "High-waisted wide-leg trousers in Italian virgin wool. Clean front pleats create a structured drape that moves with intention. Unlined for a modern, lighter feel.",
+      "Широкие брюки с завышенной талией из итальянской шерсти. Чистые передние складки создают структурную драпировку, которая движется с намерением. Без подкладки — для современного лёгкого ощущения.",
     sizes: ["XS", "S", "M", "L", "XL"],
     images: [
       "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -46,26 +46,26 @@ export const products = [
   },
   {
     id: 4,
-    name: "Eclipse Leather Skirt",
-    price: 1450,
+    name: "Кожаная юбка",
+    price: 15900,
     category: "bottom",
     description:
-      "Midi-length pencil skirt in supple lambskin leather. A concealed back zip and subtle kick pleat allow movement while maintaining a precise, editorial line.",
+      "Юбка-карандаш длины миди из мягкой кожи ягнёнка. Скрытая молния сзади и деликатная шлица обеспечивают свободу движения, сохраняя точную редакционную линию.",
     sizes: ["XS", "S", "M", "L"],
     images: [
       "https://images.pexels.com/photos/1755385/pexels-photo-1755385.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "https://images.pexels.com/photos/2220316/pexels-photo-2220316.jpeg?auto=compress&cs=tinysrgb&w=800",
       "https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/2220316/pexels-photo-2220316.jpeg?auto=compress&cs=tinysrgb&w=800",
     ],
     isNew: true,
   },
   {
     id: 5,
-    name: "Atelier Cashmere Knit",
-    price: 960,
+    name: "Кашемировый свитер",
+    price: 11900,
     category: "top",
     description:
-      "Oversized crew-neck knit in double-ply Mongolian cashmere. Ribbed cuffs and hem ground the relaxed volume. An everyday luxury that ages with grace.",
+      "Оверсайз свитер с круглым вырезом из двойного монгольского кашемира. Рубчик на манжетах и подоле задаёт основу расслабленному объёму. Повседневная роскошь, которая становится лучше с годами.",
     sizes: ["S", "M", "L", "XL"],
     images: [
       "https://images.pexels.com/photos/1021289/pexels-photo-1021289.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -76,11 +76,11 @@ export const products = [
   },
   {
     id: 6,
-    name: "Gilded Chain Necklace",
-    price: 420,
+    name: "Цепочка с позолотой",
+    price: 4900,
     category: "accessories",
     description:
-      "Sculptural chain necklace in 18k gold vermeil. Oversized oval links catch light from every angle. A statement piece that elevates the simplest neckline.",
+      "Скульптурное колье из позолоченного серебра 18 карат. Крупные овальные звенья ловят свет со всех сторон. Акцентная вещь, которая преображает самый простой вырез.",
     sizes: ["One Size"],
     images: [
       "https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -91,11 +91,11 @@ export const products = [
   },
   {
     id: 7,
-    name: "Shadow Leather Tote",
-    price: 1680,
+    name: "Кожаная тоут-сумка",
+    price: 18900,
     category: "accessories",
     description:
-      "Structured tote in full-grain Italian calfskin. Minimalist exterior with raw-edge detailing and hand-painted edges. Interior suede lining with a single zip pocket.",
+      "Структурированная тоут-сумка из итальянской телячьей кожи. Минималистичный экстерьер с необработанными краями и ручной покраской торцов. Внутренняя подкладка из замши с одним карманом на молнии.",
     sizes: ["One Size"],
     images: [
       "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -106,14 +106,14 @@ export const products = [
   },
   {
     id: 8,
-    name: "Crescent Wool Coat",
-    price: 2340,
+    name: "Шерстяное пальто",
+    price: 18900,
     category: "top",
     description:
-      "Double-faced wool coat with a sweeping hemline. Collarless design with concealed snap closures creates an unbroken line from shoulder to knee. Fully lined in silk.",
+      "Двустороннее шерстяное пальто с широким подолом. Безворотниковый дизайн со скрытыми кнопками создаёт непрерывную линию от плеча до колена. Полностью на шёлковой подкладке.",
     sizes: ["XS", "S", "M", "L"],
     images: [
-      "https://images.pexels.com/photos/2220321/pexels-photo-2220321.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/2887766/pexels-photo-2887766.jpeg?auto=compress&cs=tinysrgb&w=800",
       "https://images.pexels.com/photos/2955375/pexels-photo-2955375.jpeg?auto=compress&cs=tinysrgb&w=800",
       "https://images.pexels.com/photos/3622614/pexels-photo-3622614.jpeg?auto=compress&cs=tinysrgb&w=800",
     ],

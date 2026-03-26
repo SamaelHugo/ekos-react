@@ -40,13 +40,13 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        className={`fixed top-0 left-0 right-0 z-50 overflow-x-hidden transition-all duration-500 ${
           showBg
             ? 'bg-primary/90 backdrop-blur-md border-b border-white/5'
             : 'bg-transparent border-b border-transparent'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
+        <div className="w-full px-8 h-20 flex items-center justify-between">
           {/* Logo */}
           <Link
             to="/"

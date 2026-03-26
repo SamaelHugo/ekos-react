@@ -5,7 +5,7 @@ import CartSidebar from '../components/CartSidebar'
 
 export default function MainLayout() {
   return (
-    <div className="min-h-screen bg-primary text-text-primary font-body">
+    <div className="w-full min-h-screen bg-primary text-text-primary font-body overflow-x-hidden">
       <Navbar />
       <CartSidebar />
       <main className="pt-20">
