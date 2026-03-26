@@ -67,9 +67,8 @@ function Hero() {
         <motion.div {...fadeUp(0.8)}>
           <Link
             to="/catalog"
-            className="inline-block mt-10 border border-white/50 bg-transparent text-white px-12 py-4 text-[11px] uppercase tracking-[0.25em] hover:bg-white hover:text-black transition-all duration-500"
-          >
-            Смотреть коллекцию
+            className="inline-block mt-10 border border-white/50 bg-transparent text-white px-12 py-4 text-[11px] uppercase tracking-[0.25em] hover:bg-accent hover:text-black hover:border-accent transition-all duration-500"
+          >Смотреть коллекцию
           </Link>
         </motion.div>
       </div>
