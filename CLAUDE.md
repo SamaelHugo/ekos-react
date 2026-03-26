@@ -47,5 +47,5 @@ Multi-page fashion catalog rebuilt on React. Premium editorial design with routi
 - [x] Home page (Hero + Featured + Brand)
 - [x] Catalog page (Filters + Grid + Search)
 - [x] Product page (Gallery + Details + Add to cart)
-- [ ] About + Contact pages
+- [x] About + Contact pages
 - [ ] Animations + polish
